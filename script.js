@@ -1,3 +1,10 @@
+const Seasons = {
+    spring: "Primavera",
+    summer: "Verão",
+    autumn: "Outono",
+    winter: "Inverno"
+};
+
 function refreshClock() {
     const actualTime = new Date();
 
@@ -21,7 +28,9 @@ function getSeason() {
     }
 }
 
-document.body.dataset.season = getSeason();
+const seasonKey = getSeason();
+document.body.dataset.season = seasonKey;
+document.getElementById("season-name").textContent = Seasons[seasonKey];
 
 refreshClock();
 setInterval(refreshClock, 1000);
