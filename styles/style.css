@@ -15,14 +15,14 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #fffffa;
-    background-image: url('./assets/summer.png');
+    background-image: url('../assets/summer.png');
     background-repeat: repeat;
     background-size: 80px 80px;
     color: white;
 }
 
 body[data-season="winter"] {
-       background-image: url('./assets/winter.png');
+       background-image: url('../assets/winter.png');
 }
 body[data-season="fall"] {
        background-image: url('./assets/fall.png');
