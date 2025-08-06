@@ -2,6 +2,9 @@
 
 Um relógio digital inspirado em Animal Crossing: New Horizons, que exibe o horário atual e a estação do ano conforme o mês.
 
+<img width="657" height="413" alt="image" src="https://github.com/user-attachments/assets/ffa3113c-2ba6-4915-b94e-2d47393c9baf" />
+
+
 ## Funcionalidades
 
 - Mostra o horário atual em tempo real.
